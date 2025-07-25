@@ -1,3 +1,6 @@
+import React from "react";
+import "../css/room.css";
+
 export default function SlashRoom() {
   return (
     <div

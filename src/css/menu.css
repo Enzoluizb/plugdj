@@ -1,9 +1,24 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  background-color: #3a0ca3;
+  font-family: 'Poppins', sans-serif;
+  color: white;
+}
+
+
 .menu-container {
   display: flex;
   flex-direction: column;
   align-items: center;
   padding: 2rem;
   color: white;
+  font-family: 'Poppins', sans-serif;
+  background-color: #3a0ca3;
+  /* roxo azulado bonito */
+  min-height: 100vh;
 }
 
 .room-list {
@@ -17,14 +32,17 @@
 .room-card {
   width: 300px;
   cursor: pointer;
-  background-color: #1f1f1f;
+  background-color: #000000;
+  /* fundo preto */
   border-radius: 8px;
   overflow: hidden;
   transition: transform 0.2s;
+  box-shadow: 0 0 10px rgba(58, 12, 163, 0.7);
 }
 
 .room-card:hover {
   transform: scale(1.05);
+  box-shadow: 0 0 15px rgba(255, 255, 255, 0.8);
 }
 
 .room-card img {
@@ -36,4 +54,5 @@
 .room-card h2 {
   text-align: center;
   padding: 1rem;
+  color: white;
 }

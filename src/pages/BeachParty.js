@@ -1,3 +1,6 @@
+import React from "react";
+import "../css/room.css";
+
 export default function BeachParty() {
   return (
     <div
