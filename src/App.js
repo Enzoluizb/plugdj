@@ -1,7 +1,7 @@
 import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Menu from "./pages/Menu";
-import Room from "./pages/Room";
+import Room from "../src/components/Room.js";  
 
 export default function App() {
   return (
@@ -13,4 +13,3 @@ export default function App() {
     </Router>
   );
 }
-
